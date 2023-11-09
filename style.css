@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0  auto;
+}
+
+/* ////HEADER/// */
+
+#header {
+    padding: 50px 0;
+    position: sticky;
+    top: 0;
+    background: #9b9aa2a5;
+    z-index: 99;
+    animation: head 4s infinite;
+}
+@keyframes head {
+    0%{
+        transform: translatey(-1000px);
+
+    }
+    
+
+    
+}
+
+   
+    
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+}
+.header-a a {
+    color: #696871;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.469px;
+
+}
+.header-a {
+    display: flex;
+    gap: 49px;
+}
+.header  button {
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 17px;
+font-weight: 700;
+border-radius: 10px;
+background: #FF7143;
+width: 211px;
+height: 60px;
+border: none;
+}
+
+/* ////SECTION-1///// */
+#hero {
+    padding: 30px 0;
+
+}
+.hero-text {
+    animation:  text 4s infinite;
+}
+@keyframes text{
+    0% {
+      transform:translateX(-1000px) ;
+    }
+    40% {
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text  h1 {
+    color: #19191B;
+font-family: DM Sans;
+font-size: 80px;
+font-weight: 700;
+line-height: 77px; 
+letter-spacing: -2.501px;
+
+}
+.hero-text p {
+    color: #696871;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: -0.625px;
+margin: 25px 0;
+}
+
+.hero-text button {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 10px;
+background: #5454D4;
+width: 211px;
+height: 60px;
+border: 1px solid #15153f ;
+transition: 2s;
+}
+.hero button:hover {
+    background: none;
+    color: #183977;
+
+}
+.hero-icon {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+
+/* ///HEADER/// */
+.soup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.soup {
+    width: 1140px;
+    height: 237px;
+    background: #F7F7FB;
+    box-shadow: rgb(81, 76, 209)     3px 3px 50px;
+}
+.soup img {
+    animation: sop 6s infinite ;
+}
+@keyframes sop {
+    0% {
+        transform: translatex(1000px) ;
+    }
+    
+}
+
+/* ///// INDEX ///// */
+#index {
+    padding: 30px 0;
+}
+.index-text {
+    animation: pol 4s infinite;
+}
+@keyframes pol {
+    0% {
+        transform: translatex(1000px);
+    }
+    
+}
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.index-text h1 {
+    color: #19191B;
+font-family: DM Sans;
+font-size: 50px;
+font-weight: 700;
+
+}
+
+    .index img {
+        animation: play 2s infinite  ;
+    }
+   @keyframes play {
+    0% {
+        transform: translateX(-1000);
+    }
+    20% {
+        transform: rotate(20deg);
+    }
+   
+   }
+   
+.index-text p {
+    color: #696871;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: -0.625px;
+margin: 20px 0;
+}
+.index-text button {
+    color: #5454D4;
+font-family: DM Sans;
+font-size: 17px;
+font-weight: 700;
+border: none;
+background: 0;
+}
+
+/* /////METRICS//// */
+#metrics {
+    padding: 40px 0;
+}
+.metrics-tx {
+    animation: tx 3s infinite;
+}
+@keyframes tx {
+    0% {
+        transform: translateY(1000);
+    }
+    70% {
+        transform: rotate(50deg);
+    }
+    
+}
+.metrics img {
+    animation: pv 2s alternate-reverse;
+}
+@keyframes pv {
+    0% {
+        transform: transform(-1000);
+
+    }
+    50% {
+        transform: rotate(-500deg);
+    }
+    
+}
+.metrics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.metrics-tx h1 {
+    color: #19191B;
+font-family: DM Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; /* 114% */
+letter-spacing: -1.563px;
+
+}
+.metrics-tx p {
+    color: #696871;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: -0.625px;   
+margin: 20px 0 ;
+}
+.metrics-tx button {
+    color: #5454D4;
+font-family: DM Sans;
+font-size: 17px;
+font-weight: 700;
+border: none;
+background: 0;
+}
+
+/* ////SLEP/// */
+#slep {
+    padding: 30px 0;
+}
+.slep {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slep-one {
+    animation: slang 3s alternate;
+
+}
+@keyframes slang  {
+    0% {
+        transform: transform(-1000);
+
+    }
+    50% {
+        transform: rotate(500deg);
+    }
+    
+}
+
+    
+
+.slep {
+    width: 1140px;
+    height: 237px;
+    background: #F7F7FB;
+    box-shadow:rgb(110, 185, 228)     3px 3px 70px;
+}
+
+.slep-one h3 {
+    color: #19191B;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.75px;
+}
+.slep-one p {
+    color: #696871;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.5px;
+}
+.slep-one img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+/* ////SECTION-6//// */
+#gap  {
+    padding: 40px 0;
+}
+.gap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gap-text {
+    animation:rev 3s infinite;
+
+}
+@keyframes rev   {
+    0% {
+        transform: translateX(-1000px);
+    }
+    20% {
+        transform: rotate(600deg);
+    }
+}
+
+.gap-text h1 {
+    color: #19191B;
+font-family: DM Sans;
+font-size: 60px;
+font-weight: 700;
+line-height: 70px; /* 116.667% */
+}
+.btn1 {
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.5px;
+border-radius: 10px 0px 0px 10px;
+background: #5454D4;
+width: 160px;
+height: 55px;
+border: none;
+}
+.btn2 {
+    color: #19191B;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.5px;
+border-radius: 10px;
+background: #F7F7FB;
+width: 160px;
+height: 65px;
+border: none;
+}
+
+/* ///fre/// */
+#fre {
+    padding: 40px;
+}
+.fre-one {
+    animation: cap 6s infinite;
+}
+
+@keyframes cap  {
+    0% {
+        transform: transform(1000);
+
+    }
+    70% {
+        transform: rotate(-10deg);
+    }
+    
+}
+.fre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fre-one {
+    border-radius: 10px;
+background: #F8F8F8;
+width: 330px;
+height: 441px;
+flex-shrink: 0;
+}
+.fre-one p {
+    color: #696871;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: -0.563px;
+margin: 50px;
+
+}
+.fre-one h1 {
+    color: #1D293F;
+text-align: center;
+font-family: DM Sans;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 93.333% */
+letter-spacing: -1.034px;
+}
+.fre-one button {
+    color: #5454D4;
+text-align: center;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.531px;
+border-radius: 10px;
+border: 1px solid #EAE9F2;
+background: #FFF;
+width: 285px;
+height: 60px;
+flex-shrink: 0;
+
+}
+.fre-two {
+    border-radius: 10px;
+background: #FF7143;
+box-shadow: 0px 32px 34px 0px rgba(255, 112, 59, 0.32);
+width: 376px;
+height: 473px;
+flex-shrink: 0;
+}
+.fre-two p {
+    color: rgba(255, 255, 255, 0.70);
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: -0.563px;
+margin: 50px 0;
+    
+}
+.fre-two h1 {
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 93.333% */
+letter-spacing: -1.034px;
+}
+.fre-two button {
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.531px;
+border-radius: 10px;
+background: #9F3919;
+width: 305px;
+height: 60px;
+flex-shrink: 0;
+border: none;
+}
+
